@@ -1,0 +1,18 @@
+{
+  "name": "TVTuner-Alexa",
+  "version": "1.0.0",
+  "description": "An Express API to handle requests from Amazon Alexa and query the Trakt API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@devicefarmer/adbkit": "^3.2.3",
+    "ask-sdk-core": "^2.12.1",
+    "ask-sdk-express-adapter": "^2.12.1",
+    "express": "^4.17.1",
+    "justwatch-api": "^1.0.7",
+    "request": "^2.88.0",
+    "trakt.tv": "^8.1.1"
+  }
+}
